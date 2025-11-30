@@ -1,11 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
+
+
 
 .max-width{
     max-width: 1440px;
@@ -20,7 +23,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 20px 0;
     
 }
 
@@ -35,4 +38,47 @@ nav{
     margin: 0px 15px;
 }
 
+.navLinks ul li i{
+    font-size: 25px;
+}
+
+/* Banner  */
+.banner{
+    /* background-color: aliceblue; */
+}
+.bannerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.bannerContent{
+    width: 532px;
+}
+.bannerContent > h1{
+font-size: 42px;
+font-weight: 800;
+margin-bottom: 15px;
+}
+.bannerContent p{
+    margin: 25px 0;
+}
+
+.bannerContent button, .banner-btn {
+background-color: #E02C6D;
+color: white;
+font-size: 16px;
+font-weight: 500;
+padding: 10px 25px;
+border: none;
+border-radius: 30px;
+
+}
+.bannerImg{
+    background-image: url('/images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
