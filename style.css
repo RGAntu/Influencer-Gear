@@ -1,0 +1,38 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.max-width{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Nav start  */
+header{
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+
+.navLinks ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.navLinks ul li a{
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+
