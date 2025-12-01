@@ -82,3 +82,29 @@ border-radius: 30px;
     background-position: center center;
 }
 
+/* banner section ends  */
+
+/* brands section starts  */
+
+.brand-container{
+    border: 1px solid rgba(232, 232, 232, 0.5);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* brands section ends  */
+
